@@ -1,9 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import { useColorMode } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
 
-function Feature({ imgSrc, title, description, imgSize }) {
+function Feature({ imgSrcLight, imgSrcDark, title, description, imgSize }) {
+  const { colorMode } = useColorMode();
+  const imgSrc = colorMode === 'dark' ? imgSrcDark : imgSrcLight;
+  
   return (
     <div className={clsx('col col--12')}>
       <div className={styles.featureContainer}>
@@ -23,7 +27,8 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
           <Feature
-            imgSrc={require('@site/static/img/robotcam.webp').default}
+            imgSrcLight={require('@site/static/img/robotcam.webp').default}
+            imgSrcDark={require('@site/static/img/night.webp').default}
             title=""
             description=""
             imgSize="100%" // adjust the image size here
