@@ -8,9 +8,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'RISE Video Production',
+  tagline: '',
+  favicon: 'img/uo.jpg',
 
   // Set the production url of your site here
   url: 'https://Nathan-M-Burton.github.io',
@@ -41,17 +41,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Nathan-M-Burton/my-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Nathan-M-Burton/my-website/tree/main/',
+            'https://github.com/Nathan-M-Burton/Rise_Documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,28 +62,30 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'RISE SOP',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/yg.png',
+          width: 28,
+          height: 100,
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Trainings',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/Nathan-M-Burton/my-website',
+            href: 'https://github.com/Nathan-M-Burton/Rise_Documentation/',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -129,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rise SOP by Nathan Burton`,
       },
       prism: {
         theme: prismThemes.github,

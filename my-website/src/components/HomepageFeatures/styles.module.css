@@ -9,3 +9,30 @@
   height: 200px;
   width: 200px;
 }
+
+.featureContainer {
+  position: relative;
+  text-align: center;
+}
+
+.featureContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.featureText {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0); /* Optional: for better text readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.featureTitle {
+  margin: 0;
+  font-size: 2em;
+}
