@@ -28,3 +28,21 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Define CSS variables for title color in light and dark mode */
+:root {
+  --title-color-light: #ffffff; 
+  --title-color-dark: #FEE11A;  
+}
+
+/* Apply light mode title color */
+.main-title {
+  color: var(--title-color-light);
+}
+
+/* Apply dark mode title color */
+:root[data-theme='dark'] .main-title {
+  color: var(--title-color-dark);
+}
+
+

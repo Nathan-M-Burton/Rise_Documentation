@@ -15,13 +15,12 @@ const config = {
   // Set the production url of your site here
   url: 'https://Nathan-M-Burton.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  // For GitHub pages deployment '/<projectName>/'
+  baseUrl: '/Rise_Documentation/', // switch between "my-website" and "Rise_Documentation"
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Nathan-M-Burton', // Usually your GitHub org/user name.
-  projectName: 'my-website', // Usually your repo name.
+  organizationName: 'Nathan-M-Burton', // GitHub org/user name.
+  projectName: 'Rise_Documentation', // repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,13 +40,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Nathan-M-Burton/Rise_Documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,7 +68,6 @@ const config = {
             position: 'left',
             label: 'Trainings',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/Nathan-M-Burton/Rise_Documentation/',
             label: 'GitHub',
