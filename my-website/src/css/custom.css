@@ -45,5 +45,37 @@
   color: var(--title-color-dark);
 }
 
+/* Default image for light mode */
+#homepage-image {
+  content: url('@site/static/img/robotcam.webp');
+}
 
+/* Image for dark mode */
+:root[data-theme='dark'] #homepage-image {
+  content: url('@site/static/img/night.webp');
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 150px; /* Space between links */
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: inherit; /* Ensure the link inherits color based on theme */
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
 

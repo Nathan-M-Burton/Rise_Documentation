@@ -4,6 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -16,18 +17,15 @@ const config = {
   url: 'https://Nathan-M-Burton.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment '/<projectName>/'
-  baseUrl: '/Rise_Documentation/', // switch between "my-website" and "Rise_Documentation"
+  baseUrl: '/Rise_Documentation/',
 
   // GitHub pages deployment config.
-  organizationName: 'Nathan-M-Burton', // GitHub org/user name.
-  projectName: 'Rise_Documentation', // repo name.
+  organizationName: 'Nathan-M-Burton',
+  projectName: 'Rise_Documentation',
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -51,7 +49,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'RISE SOP',
@@ -79,43 +76,16 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            label: 'OVPRI',
+            href: 'https://research.uoregon.edu/',
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            label: 'Email Me',
+            href: 'mailto:nburton6@uoregon.edu',
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Nathan-M-Burton/my-website',
-              },
-            ],
+            label: 'GitHub',
+            href: 'https://github.com/Nathan-M-Burton/Rise_Documentation',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rise SOP by Nathan Burton`,
@@ -128,5 +98,3 @@ const config = {
 };
 
 export default config;
-
-
