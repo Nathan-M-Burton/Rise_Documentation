@@ -16,7 +16,7 @@ const config = {
   url: 'https://Nathan-M-Burton.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment '/<projectName>/'
-  baseUrl: '/Rise_Documentation/', // switch between "my-website" and "Rise_Documentation"
+  baseUrl: '/my-website/', // switch between "my-website" and "Rise_Documentation"
 
   // GitHub pages deployment config.
   organizationName: 'Nathan-M-Burton', // GitHub org/user name.
