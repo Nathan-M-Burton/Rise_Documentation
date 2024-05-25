@@ -31,7 +31,7 @@
 
 /* Define CSS variables for title color in light and dark mode */
 :root {
-  --title-color-light: #ffffff; 
+  --title-color-light: #FEE11A; 
   --title-color-dark: #FEE11A;  
 }
 

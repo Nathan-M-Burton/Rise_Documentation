@@ -2,6 +2,7 @@
 id: vyond-tutorial
 title: Getting started in Vyond
 description: A basic tutorial for getting started with Vyond video editing software.
+sidebar_position: 1
 ---
 
 # Vyond Video Editing Software Tutorial

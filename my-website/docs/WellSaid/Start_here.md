@@ -1,4 +1,8 @@
-# Getting Started with WellSaid Labs
+---
+sidebar_position: 2
+---
+
+# Starting WellSaid Labs
 
 Welcome to WellSaid Labs! WellSaid will be the voice behind the videos you create, so mastering it is important to ensure the timely production of videos. This tutorial covers the basics of starting your journey with WellSaid Labs.
 
